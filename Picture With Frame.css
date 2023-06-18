@@ -12,30 +12,30 @@
   align-items: center;
 }
 @media (min-width: 200px) and (max-width: 600px) {
-    .container {
-      width: 500px;
-      display: flex;
-      flex-flow: column;
-    }
-    .right{
-        width:30%;
-        display: flex;
-        flex-flow: column wrap;
-    }
-    .right-small-container{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-    }
-    .left img{
-        width: 200px;
-        height: 100px;
-    }
-    .left div{
-        width: 200px;
-        height: 110px;
-    }
+  .container {
+    width: 500px;
+    display: flex;
+    flex-flow: column;
   }
+  .right {
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .right-small-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  .left img {
+    width: 200px;
+    height: 100px;
+  }
+  .left div {
+    width: 200px;
+    height: 110px;
+  }
+}
 .left div {
   width: 375px;
   height: 305px;
